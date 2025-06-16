@@ -20,7 +20,9 @@ setup(
     ],
     python_requires=">=3.6",
     install_requires=[
-        # 这里列出依赖项，如果没有可以留空
+        pytest~=8.3.3
+        setuptools~=78.1.1
+        coverage>=5.0
     ],
     extras_require={
         "dev": [
