@@ -1,6 +1,5 @@
 from typing import Any
 
-
 class TextProcessingError(Exception):
     """
     文本处理通用异常基类

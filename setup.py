@@ -19,9 +19,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
-    install_requires=[
-        # 这里列出依赖项，如果没有可以留空
-    ],
+    install_requires=[],
     extras_require={
         "dev": [
             "pytest>=6.0",
