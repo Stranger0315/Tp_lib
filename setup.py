@@ -19,11 +19,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
-    install_requires=[
-        pytest~=8.3.3
-        setuptools~=78.1.1
-        coverage>=5.0
-    ],
+    install_requires=[],
     extras_require={
         "dev": [
             "pytest>=6.0",
